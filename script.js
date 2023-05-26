@@ -61,7 +61,6 @@ btn.addEventListener('click',(e)=>{
     checkAnswer()
     e.target.style.display ="none"
     result.innerHTML = `თქვენ მიიღეთ ${count}/3`
-    return
 })
 
 
